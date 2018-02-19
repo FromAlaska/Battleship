@@ -12,12 +12,10 @@ export class IndexPage extends Component {
   };
 
   render() {
-    const { count, fetchRedditReactjsListPending, redditReactjsList, fetchRedditReactjsListError } = this.props.home;
-    const { counterPlusOne, counterMinusOne, resetCounter, fetchRedditReactjsList } = this.props.actions;
     return (
       <div className="home-index-page">
         <h1>Welcome to Battleship!</h1>
-
+        
         <div className="slideshow-container">
           <div class="numberText">1 / 3</div>
           <img src="./src/images/logo.png"></img>
@@ -38,7 +36,6 @@ export class IndexPage extends Component {
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
        </div>
     );
   }
