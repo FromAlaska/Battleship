@@ -10,6 +10,9 @@ var submarine = {len: 3, pos: []};
 var destroyer = {len: 3, pos: []};
 var patrolBoat = {len: 2, pos: []};
 
+// The one who owns the ships
+var ply = {acCarrier, battleship, submarine, destroyer, patrolBoat};
+
 // Make a new battleship board
 var colA = new Array(10);
 var colB = new Array(10);
@@ -46,6 +49,18 @@ function placeShip(ship, column, row, orient) {
 	}
 }
 
+// Get what kind of ship has been placed at a certain position
+function getShip(column, row) {
+	// Ship positions should be stored as a string of two ints
+	// Find ship pos that matches passed coord. and return
+	// that ship.
+	for (i = 0; i < Object.keys(ply).length; i++) {
+		for (j = 0; j < Object.keys(ply[i]).length; j++) {
+			
+		}
+	}
+}
+
 // Status of a position
 function atPos(column, row) {
 	var status;
@@ -58,7 +73,28 @@ function atPos(column, row) {
 	} else if (bsBoard[column][row] == 3) {
 		status = "sank";
 	} else {
-		// An error hath occurred!
+		console.log("An error hath!");
 	}
 	return status;
+}
+
+// Checking to see if a ship has been sunk
+function isSunk() {
+	// Return whether or not a ship has been sunk
+}
+
+// Fire the main guns!
+function fire(column, row) {
+	if (atPos(column, row) == "miss") {
+		// Shot missed
+		return "You missed!";
+	} else if (atPos(column, row) == "found") {
+		// Shot hit
+		bsBoard[column][row] = 2;
+		// Check to see if this sinks the ship
+		return "Hit success!";
+	} else {
+		// This position has already been shot at
+		// Return error and attempt to re-fire
+	}
 }
