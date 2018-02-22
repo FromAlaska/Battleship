@@ -27,6 +27,10 @@ var colI = new Array(10);
 var colJ = new Array(10);
 var bsBoard = [colA, colB, colC, colD, colE, colF, colG, colH, colI, colJ];
 
+function boardDraw() {
+  
+}
+
 // Place a ship on the board
 function placeShip(ship, column, row, orient) {
 	// Check to see if there is a conflict

@@ -5,6 +5,7 @@ import {
   IndexPage,
   BattlePage,
   About,
+  Board,
 } from './';
 
 export default {
@@ -18,5 +19,6 @@ export default {
     },
     { path: 'battle-page', name: 'Play!', component: BattlePage },
     { path: 'about', name: 'About Us', component: About},
+    { path: 'Board', name: 'Example', component: Board},
   ],
 };
