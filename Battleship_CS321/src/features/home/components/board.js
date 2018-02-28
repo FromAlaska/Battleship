@@ -11,6 +11,16 @@ var submarine = {name: "Submarine", len: 3, pos: []};
 var destroyer = {name: "Destroyer", len: 3, pos: []};
 var patrolBoat = {name: "Patrol Boat", len: 2, pos: []};
 
+// Grid rows and columns and the size for each square.
+var rows = 10;
+var cols = 10;
+var squareSize = 50;
+
+// Holds the div container for the gameboard to draw onto screen.
+var boardContainer = document.getElementById("board");
+
+
+
 // The one who owns the ships
 var ply = [acCarrier, battleship, submarine, destroyer, patrolBoat]; // Can we use only one?
 

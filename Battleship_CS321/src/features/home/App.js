@@ -23,8 +23,8 @@ export default class App extends Component {
         <div className="sidebar">
           <SimpleNav routes={routeConfig} />
           <p className="memo">
-          Welcome to Battleship!
-          Made by Jim Samson and Curtis.
+            Welcome to Battleship!
+            Made by Jim Samson and Curtis.
           </p>
         </div>
         <div className="page-container">

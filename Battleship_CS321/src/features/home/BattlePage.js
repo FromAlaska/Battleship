@@ -17,27 +17,26 @@ export class BattlePage extends Component {
        <p>yes</p>
        <div className="salmonOnlyColor">
         <p>Hello World!</p>
-        <img src="./src/images/battleshipboard.png"></img>
-        </div>
         
-        <div className="grid-container">
-        <div class="grid-item">1</div>
-          <div class="grid-item">2</div>
-          <div class="grid-item">3</div>  
-          <div class="grid-item">4</div>
-          <div class="grid-item">5</div>
-          <div class="grid-item">6</div>  
-          <div class="grid-item">7</div>
-          <div class="grid-item">8</div>
-          <div class="grid-item">9</div>
+          <div id="board">
+          <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+          </div>
         </div>
-        <div id="board"></div>
+        //<div id="board"></div>
       </div>
     );
   }
 }
 
-document.getElementById("board").innerHTML = boardDraw();
+//document.getElementById("board").innerHTML = boardDraw();
 
 /* istanbul ignore next */
 function mapStateToProps(state) {
