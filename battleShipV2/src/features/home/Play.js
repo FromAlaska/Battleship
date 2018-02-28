@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { boardDraw } from './redux/actions.js';
 
 export default class Play extends Component {
   static propTypes = {
@@ -14,7 +15,8 @@ export default class Play extends Component {
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
         </div>
-        <script src="./redux/actions.js"></script>
+        <div id="board"></div>
+        
       </div>
     );
   }
