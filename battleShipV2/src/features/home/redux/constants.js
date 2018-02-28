@@ -1,0 +1,1 @@
+export const HOME_BOARD_DRAW = 'HOME_BOARD_DRAW';

@@ -1,6 +1,8 @@
 import initialState from './initialState';
+import { reducer as boardDrawReducer } from './boardDraw';
 
 const reducers = [
+  boardDrawReducer,
 ];
 
 export default function reducer(state = initialState, action) {

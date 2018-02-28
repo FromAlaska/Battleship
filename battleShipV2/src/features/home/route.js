@@ -1,5 +1,6 @@
 import {
   DefaultPage,
+  Play,
 } from './';
 
 export default {

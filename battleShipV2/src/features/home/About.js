@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
-export class DefaultPage extends Component {
+export class About extends Component {
   static propTypes = {
     home: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
@@ -12,13 +12,8 @@ export class DefaultPage extends Component {
 
   render() {
     return (
-      <div className="home-default-page">
-        <div class="topnav">
-          <a class="active" href="default-page">Home</a>
-          <a href="Play">Play Battleship!</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-        </div>
+      <div className="home-about">
+        Page Content: home/About
       </div>
     );
   }
@@ -41,4 +36,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(DefaultPage);
+)(About);
