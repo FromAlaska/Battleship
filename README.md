@@ -28,3 +28,13 @@ Tonight, in lieu of our testing framework causing us issues that it shouldn't ha
 The main issues that we solved during this time is routing issues in how Javascript source files where being loaded. Through this we much better acquainted with our refreshed and refactored framework, as it was a missing field in one of the import statements causing things to not load as they should.
 
 We were unable to solve a particular error during this time (see Issues) as we did not exactly have a good access to power, and a single laptop that was well below 20%, but we were able to get almost back to where we were.
+
+
+## User Stories and Ideas
+| User Story        | Difficulty (in points)  |
+| ------------- | -----:|
+| Neat and usable UI | ... |
+| Be able to play anywhere | ... |
+| Vs. Multiplayer or vs. COM | ... |
+| Place ships easily | ... |
+| Beautiful graphics and sfx  | ... |
