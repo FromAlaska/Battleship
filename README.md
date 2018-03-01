@@ -18,6 +18,28 @@ NOTE: The present working directory is under the battleShipV2 path
 
 
 ## Project History
+
+**(2/09/2018)**
+We started to plan with what language we wanted to program in. Typically a programming language that doesn't look like a mess when we coded it. In the end, we wanted to create Battleship with ReactJS and uWebSockets C++ API. 
+
+We decided to use the Scrum methodology for our project. 
+
+**(2/10/2018)**
+I've recently just heard about Rekit Studio. Rekit Studio focuses on small/large web development by creating a NodeJS server as the backend. When connected to the web server, via browsers, you are greeted with an interface that shows all the components/actions on the screen. For the first page, we showed that a simple interface that shows the default page.
+
+**(2/12/2018)**
+I decided that we aren't going to use uWebSockets anymore, since we can work with NodeJS and Rekit Studio in the backend to create the project.
+
+We made a simple page that displays a simple image of a 10x10 board.
+
+**(2/14/2018)**
+We tested our environment, the test came up with multiple errors. My best guess is that I (the infamous Jim) deleted some testing code for the testing suite. 
+
+We ignored this as it wasn't causing any issues to our current version of code. 
+
+**(2/26/2018)**
+Bugs started to show in our system. We definitely need to refactor code to display our game. 
+
 **(2/27/2018)**  
 What is the sound of two programmers with no time and a broken framework?
 
