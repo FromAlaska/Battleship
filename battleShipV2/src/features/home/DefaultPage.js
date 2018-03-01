@@ -13,15 +13,9 @@ export class DefaultPage extends Component {
   render() {
     return (
       <div className="home-default-page">
-        <div>
-          <div id="board">
-            <div class="cell">
-            </div>
-          </div>
-        </div>
-        <div class="topnav">
-          <a class="active" href="default-page">Home</a>
-          <a href="Play">Play!</a>
+        <div className="topnav">
+          <a className="active" href="default-page">Home</a>
+          <a href="game-start">Play!</a>
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
         </div>

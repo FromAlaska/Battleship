@@ -1,6 +1,6 @@
 import {
   DefaultPage,
-  Play,
+  GamePlay,
 } from './';
 
 export default {
@@ -12,6 +12,6 @@ export default {
       component: DefaultPage,
       isIndex: true,
     },
-    { path: 'play', name: 'Play', component: Play },
+    { path: 'game-start', name: 'Game play', component: GamePlay },
   ],
 };
