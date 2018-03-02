@@ -1,4 +1,4 @@
-# Ship Battle Royale V2
+# Ship Battle Royale 2.0
 With cheese. Public repository for the first CS372 project, Battleship.
 
 By: Jim Samson and Curtis Fortenberry  
