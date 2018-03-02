@@ -1,0 +1,32 @@
+@import '../../styles/mixins';
+
+.home-game-play {
+  #outPopUp {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 24%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    background: green;
+
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  .board {
+    padding: 20px;
+    border: 2px solid black;
+    margin: auto auto;
+    div {
+      width: 40px;
+      height: 40px;
+      border: 1px dotted black;
+    }
+    div:nth-of-type(even) {
+      background-color: darkgreen;
+    }
+  }
+}
