@@ -13,7 +13,6 @@ export function boardDraw() {
 }
 
 export function reducer(state, action) {
-  console.log("Hello World");
   switch (action.type) {
     case HOME_BOARD_DRAW:
       return {

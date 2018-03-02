@@ -1,6 +1,7 @@
 import {
   DefaultPage,
   GamePlay,
+  About,
 } from './';
 
 export default {
@@ -13,5 +14,6 @@ export default {
       isIndex: true,
     },
     { path: 'game-start', name: 'Game play', component: GamePlay },
+    { path: 'about', name: 'About', component: About },
   ],
 };
