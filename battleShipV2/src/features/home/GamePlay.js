@@ -11,20 +11,17 @@ export class GamePlay extends Component {
   };
 
   makeBoard(cols, rows) {
-    var board = [];
     var cellSize = cols*rows;
+    var board = new Array(cellSize);
     var buffer;
+    var cellContainer = [];
 
     for (let i=0; i < cols; i++) {
-      for (let j=0; j < rows; j++) {
-        var cellLeft = j * cellSize;
-        var cellTop = i * cellSize;
-        buffer = function() {board.style.left = cellLeft; board.style.top = cellTop;};
-        var cell = React.createElement("div", null, buffer);
-        //var cellContainer = [];
-        //cellContainer.push(cell);
-        board.push(cell);
-      }
+      var cell = React.createElement("div", null, buffer);
+      cellContainer.push(cell);
+      var boardContainer = React.createElement("div", null, cellContainer);
+      board.push(boardContainer);
+      console.log("Pushed!");
     }
 
     return board;
