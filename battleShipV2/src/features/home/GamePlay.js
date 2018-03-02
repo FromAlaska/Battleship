@@ -4,28 +4,28 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
+
+
 export class GamePlay extends Component {
   static propTypes = {
     home: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
   };
 
-  makeBoard(cols, rows) {
-    var cellSize = cols*rows;
-    var board = new Array(cellSize);
-    var buffer;
-    var cellContainer = [];
-
-    for (let i=0; i < cols; i++) {
-      var cell = React.createElement("div", null, buffer);
-      cellContainer.push(cell);
-      var boardContainer = React.createElement("div", null, cellContainer);
-      board.push(boardContainer);
-      console.log("Pushed!");
-    }
-
-    return board;
+  turnPurple() {
   }
+
+  makeBoard(cols) {
+    var indents = [];
+    var idString;
+    for (let i=0; i < cols; i++) {
+      idString = 'cell: ' + i;
+      indents.push(<div id = {idString} onClick={this.turnPurple}> </div>);
+    }
+    return indents;
+  }
+
+  
 
   render() {
     return (
@@ -37,7 +37,7 @@ export class GamePlay extends Component {
           <a href="about">About</a>
         </div>
         <div className="board">
-          {this.makeBoard(10,10)}
+        {this.makeBoard(100)}
         </div>
       </div>
     );
