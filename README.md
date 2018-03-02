@@ -51,6 +51,11 @@ The main issues that we solved during this time is routing issues in how Javascr
 
 We were unable to solve a particular error during this time (see Issues) as we did not exactly have a good access to power, and a single laptop that was well below 20%, but we were able to get almost back to where we were.
 
+**(3/1/2018)**  
+On our final night of working on the project we have decided to rework the concept of the game to fit what is currently possible within our current framework. Instead of having a 10x10 board we're going with a single row of cells and playing Ship Battle Royale 2.0 (w/Cheese), and instead of guessing exactly where the ships are the players must fire blindly at each other and by the power of 2D kinematics pray they hit their opponents ship.
+
+We've since solved our issue of not getting the cells to render onto the page, however we have since encountered a new host of issues slowing down our development time. May whatever existing deity have mercy upon our fragile souls.
+
 
 ## User Stories and Ideas
 | User Story        | Difficulty (in points/10)  |
