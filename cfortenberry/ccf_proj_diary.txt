@@ -1,1 +1,10 @@
-Write this!
+Curtis Fortenberry Project Diary: Final
+
+  I think the biggest thing that helped our project was the fact it was mostly pair-programmed. For me I agree with the statement that was given to us by Dr. Lawlor that went, "Learning a new language is great, but learning it for a group project is not." Learning ReactJS, much less just JavaScript, was a massive obstacle for me but with pair-programming I was able to at least walk away from this with a little more knowledge than I had beforehand. I wish I had more time to devote to that, but some things are harder to manage than others. In the end, pair-programming allowed us to come up with cleaner, dare I say more functioning, code.
+  
+  Test Driven Development (TDD) was a bit of a neutral ground for us in the respect that the things that we may not have had written unit tests since the things we needed to test were graphical by nature, but we had the mindset of we knew if a test would have failed if we wrote one as it would have been visually apparent. It would have been a great thing to have for the game-logic had we gotten that far, but as far as making sure that things were getting drawn properly you can't really write unit tests for DOM objects that don't return things.
+  
+  Ultimately our biggest downfall was our lack of use of version control. There was a number of refactors and refreshes that would have been much easier if we could have just rolled back to previous commits, but since we hardly ever did that until the end of the project this ended up taking up most of our time; starting, breaking, restarting, repeating, and so on. Our lack of time to devote to the project didn't help this issue, but that is a separate digression.
+  
+  Amongst all of this is was a good experience, at no point during it did I think that I should be doing something else, or that my time would be better served elsewhere. I feel like I learned lessons that I can apply to other things and some skills that may end up helping me in the near future. We shall see.
+(Time Spent: 15hrs)
